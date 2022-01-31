@@ -8,6 +8,8 @@ class Activity {
    @Inject
    lateinit var keyBoard: Keyboard
 
+   @Inject
+   lateinit var computer: Computer
    init {
        //Component().inject(this)
       DaggerNewComponent.create().inject(this)
